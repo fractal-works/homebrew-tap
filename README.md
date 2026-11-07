@@ -3,8 +3,12 @@
 Homebrew casks for apps by Fractal Works, Inc.
 
 ```sh
+brew tap fractal-works/tap
+brew trust --tap fractal-works/tap
 brew install --cask fractal-works/tap/autorouter
 ```
+
+Homebrew 7 loads casks from a tap outside Homebrew only after you trust it.
 
 | Cask         | App                                                                                                                                  |
 | ------------ | ------------------------------------------------------------------------------------------------------------------------------------ |
